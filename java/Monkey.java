@@ -10,5 +10,26 @@ public class Monkey {
         this.name = name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public int getName() {
+        return name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setName(int name) {
+        this.name = name;
+    }
+
+    public void draw() {
+        System.out.println("I am a monkey");
+    }
+
+
 
 }
